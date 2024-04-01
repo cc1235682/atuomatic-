@@ -1,0 +1,12 @@
+streamlit
+base64
+PIL.Image
+BytesIO
+pymysql
+time
+zipfile.ZipFile
+webbrowser
+pandas
+matplotlib.pyplot
+mysqlclient==2.2.4
+SQLAlchemy==2.0.27

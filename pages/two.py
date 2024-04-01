@@ -17,7 +17,7 @@ def open_link(url):
 def get_last_question_number():
     # 连接数据库
     conn = pymysql.connect(
-            host='127.0.0.1',
+            host='%',
             user='root',
             password='L123456',
             port=3306,
@@ -39,7 +39,7 @@ def get_last_question_number():
 # 获取题目内容
 def get_question_content(selected_question):
     conn = pymysql.connect(
-            host='127.0.0.1',
+            host='%',
             user='root',
             password='L123456',
             port=3306,
@@ -73,7 +73,7 @@ def get_question_analysis_suggestion(selected_question):
 # 答案内容
 def get_answer_content(selected_question):
     conn = pymysql.connect(
-            host='127.0.0.1',
+            host='%',
             user='root',
             password='L123456',
             port=3306,
@@ -91,7 +91,7 @@ def get_answer_content(selected_question):
 # 获取大模型调用后的答案分析
 def get_answer_analysis_suggestion(selected_question):
     conn = pymysql.connect(
-            host='127.0.0.1',
+            host='%',
             user='root',
             password='L123456',
             port=3306,
@@ -108,7 +108,7 @@ def get_answer_analysis_suggestion(selected_question):
 # 学生答案内容
 def get_student_answer_content(selected_question, student_name):
     conn = pymysql.connect(
-            host='127.0.0.1',
+            host='%',
             user='root',
             password='L123456',
             port=3306,
@@ -138,7 +138,7 @@ def get_student_answer_content(selected_question, student_name):
 
 def get_student_answer_analysis_suggestion(selected_question):
     conn = pymysql.connect(
-        host='127.0.0.1',
+        host='%',
         user='root',
         password='L123456',
         port=3306,

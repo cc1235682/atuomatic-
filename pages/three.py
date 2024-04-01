@@ -10,7 +10,7 @@ st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 # 学情可视化：学生分数排名
 def score_rank():
     conn = pymysql.connect(
-        host='127.0.0.1',
+        host='%',
         user='root',
         password='L123456',
         port=3306,
@@ -72,7 +72,7 @@ def score_range():
     plt.rcParams['axes.unicode_minus'] = False
 
     conn = pymysql.connect(
-            host='127.0.0.1',
+            host='%',
             user='root',
             password='L123456',
             port=3306,

@@ -39,7 +39,7 @@ st.write('')
 
 # 连接数据库
 conn = pymysql.connect(
-    host='127.0.0.1',
+    host='%',
     user='root',
     password='L123456',
     port=3306,

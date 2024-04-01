@@ -1,9 +1,9 @@
 Streamlit
 pymysql
-PIL
 Base64
 Matplotlib
 pandas
+pillow
 
 
 

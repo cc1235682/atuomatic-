@@ -1,11 +1,5 @@
-streamlit
-PIL.Image
-BytesIO
-pymysql
-time
-zipfile.ZipFile
-webbrowser
-pandas
-matplotlib.pyplot
+streamlit == 1.32.2
+pymysql == 1.1.0
+pandas == 1.4.4
 mysqlclient==2.2.4
 SQLAlchemy==2.0.27
